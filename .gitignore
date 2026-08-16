@@ -1,0 +1,10 @@
+.DS_Store
+*.o
+*.out
+*.exe
+app
+a.out
+.vscode/
+.idea/
+.venv/
+__pycache__/
