@@ -8,3 +8,7 @@ a.out
 .idea/
 .venv/
 __pycache__/
+
+# 个人自学实践与代码复现目录（本地保留，不推送到 GitHub）
+practice_c/
+practice_*/
