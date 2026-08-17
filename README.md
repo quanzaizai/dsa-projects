@@ -13,7 +13,8 @@ dsa-projects/
 │   ├── 02_array_and_sequence_list/
 │   ├── 03_singly_linked_list/
 │   ├── 04_doubly_linked_list/
-│   └── 05_circular_linked_list/
+│   ├── 05_circular_linked_list/
+│   └── 06_stack/
 ├── practice_c/             # 2. 独立实战闯关空间 (面向边界测试与手撕算法)
 ├── python/                 # 3. Python 算法与刷题实现 (预留)
 └── README.md               # 算法大纲与中文导读索引
@@ -65,3 +66,12 @@ dsa-projects/
 | `01_singly_circular_linked_list.c` | **单向循环链表** | 尾节点指向头节点的闭环条件与 `do-while` 循环遍历 | `gcc c/05_circular_linked_list/01_singly_circular_linked_list.c -o app && ./app` |
 | `02_doubly_circular_linked_list.c` | **双向循环链表** | 对称双向闭环结构、$O(1)$ 实现首尾互访 | `gcc c/05_circular_linked_list/02_doubly_circular_linked_list.c -o app && ./app` |
 | `03_josephus_problem_simulation.c` | **约瑟夫环经典问题** | 循环链表模拟淘汰出圈算法、节点解绑与环缩容 | `gcc c/05_circular_linked_list/03_josephus_problem_simulation.c -o app && ./app` |
+
+---
+
+### 06. 栈结构与实战算法 (`c/06_stack/`)
+| 源文件 | 中文知识点 | 时空复杂度 | 核心考点与底层原理 | 编译运行命令 |
+| :--- | :--- | :--- | :--- | :--- |
+| `01_array_stack.c` | **顺序栈 (数组实现)** | $O(1) / O(1)$ | 栈顶指针 `top` 维护、入栈 `++top` 与出栈 `top--`、栈满溢出与栈空下溢防御 | `gcc c/06_stack/01_array_stack.c -o app && ./app` |
+| `02_linked_stack.c` | **链式栈 (链表实现)** | $O(1) / O(1)$ | 单链表头插法入栈与头删法出栈、动态按需扩容、全栈内存安全销毁 `destroy` | `gcc c/06_stack/02_linked_stack.c -o app && ./app` |
+| `03_parentheses_matching.c` | **有效括号匹配算法** | $O(N) / O(N)$ | LeetCode 20 经典题、字符辅助栈、成对匹配消除与最终空栈判定 | `gcc c/06_stack/03_parentheses_matching.c -o app && ./app` |
