@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdbool.h>
+// ==================== 0. 标准库头文件引入与作用解析 ====================
+#include <stdio.h>    // 标准输入输出库：提供 printf(), puts() 等控制台格式化输出函数
+#include <stdbool.h>  // C99 标准布尔库：提供 bool, true, false 逻辑判定类型支持
 
 #define QUEUE_CAPACITY 6 // 队列底层数组物理长度（最多容纳 CAPACITY - 1 = 5 个元素）
 

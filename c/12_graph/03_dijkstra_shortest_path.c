@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <limits.h>
+// ==================== 0. 标准库头文件引入与作用解析 ====================
+#include <stdio.h>    // 标准输入输出库：提供 printf(), puts() 等控制台格式化输出函数
+#include <stdbool.h>  // C99 标准布尔库：提供 bool, true, false 逻辑判定类型支持
+#include <limits.h>   // 整型极限常量库：提供 INT_MAX, INT_MIN 等数值极值（用于 Dijkstra 等算法无穷大初始值）
 
 #define V 5          // 图的顶点总数
 #define INF INT_MAX  // 定义无穷大距离

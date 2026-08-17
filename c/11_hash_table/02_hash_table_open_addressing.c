@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdbool.h>
+// ==================== 0. 标准库头文件引入与作用解析 ====================
+#include <stdio.h>    // 标准输入输出库：提供 printf(), puts() 等控制台格式化输出函数
+#include <string.h>   // 字符串与内存操作库：提供 strlen(), strcpy(), strcmp(), memset() 等内存/文本处理函数
+#include <stdbool.h>  // C99 标准布尔库：提供 bool, true, false 逻辑判定类型支持
 
 #define TABLE_SIZE 7 // 槽位数
 

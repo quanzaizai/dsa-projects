@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+// ==================== 0. 标准库头文件引入与作用解析 ====================
+#include <stdio.h>    // 标准输入输出库：提供 printf(), puts() 等控制台格式化输出函数
+#include <stdlib.h>   // 标准通用工具库：提供 malloc(), free(), exit(), NULL 等堆内存动态分配与释放支持
+#include <stdbool.h>  // C99 标准布尔库：提供 bool, true, false 逻辑判定类型支持
 
 /**
  * =============================================================================
